@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 00:48+0200\n"
+"POT-Creation-Date: 2025-05-17 22:22+0530\n"
 "PO-Revision-Date: 2025-05-17 17:11+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -18,20 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.6\n"
 
-#: data/io.github.nozwock.Packet.desktop.in.in:2
+#: data/io.github.nozwock.Packet.desktop.in.in:3
 #: data/io.github.nozwock.Packet.metainfo.xml.in.in:6
 #: data/resources/ui/window.blp:37 data/resources/ui/window.blp:99
-#: src/application.rs:129
+#: src/application.rs:129 src/main.rs:33
 msgid "Packet"
 msgstr "Packet"
 
-#: data/io.github.nozwock.Packet.desktop.in.in:3
+#: data/io.github.nozwock.Packet.desktop.in.in:4
 #: data/io.github.nozwock.Packet.metainfo.xml.in.in:7
 msgid "Share files easily"
 msgstr "Deel eenvoudig bestanden"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/io.github.nozwock.Packet.desktop.in.in:9
+#: data/io.github.nozwock.Packet.desktop.in.in:10
 msgid "Gnome;GTK;Quick;Nearby;Share;"
 msgstr "Gnome;GTK;Nearby;Share;Delen;Snel;Dichtbij;"
 
@@ -180,3 +180,168 @@ msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 #: src/application.rs:143
 msgid "Similar Projects"
 msgstr "Vergelijkbare projecten"
+
+#: src/objects/send_transfer.rs:38 src/objects/send_transfer.rs:46
+#: src/widgets/recipient_card.rs:108 src/widgets/recipient_card.rs:147
+msgid "Unknown device"
+msgstr ""
+
+#: src/utils.rs:133
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/utils.rs:135 src/utils.rs:145
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/utils.rs:147 src/utils.rs:150
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/file_card.rs:115
+msgid "Remove"
+msgstr ""
+
+#: src/widgets/file_card.rs:133 src/window.rs:636
+#, fuzzy
+msgid "{} File"
+msgid_plural "{} Files"
+msgstr[0] "Bestand toevoegen"
+msgstr[1] "Bestand toevoegen"
+
+#: src/widgets/receive_transfer.rs:20
+msgid "Link"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:21
+msgid "Text"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:22
+msgid "Wi-Fi"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:38
+msgid "Receiving"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:41 src/widgets/recipient_card.rs:308
+msgid "Cancel"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:139
+msgid "Incoming Transfer"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:163
+msgid "Decline"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:164
+msgid "Accept"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:193
+msgid "{} file ({})"
+msgid_plural "{} files ({})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/receive_transfer.rs:210
+msgid "Preview ({})"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:232 src/widgets/recipient_card.rs:445
+msgid "Code: {}"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:336 src/widgets/recipient_card.rs:478
+#, fuzzy
+msgid "About {} left"
+msgstr "Over P_acket"
+
+#: src/widgets/receive_transfer.rs:362
+msgid "Unexpected dissconnection"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:385
+msgid "Transfer cancelled by sender"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:420
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:428
+msgid "Save text as file"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:485 src/widgets/receive_transfer.rs:601
+msgid "Open"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:582
+msgid "Unimplemented"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:593
+msgid "{} file received"
+msgid_plural "{} files received"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/recipient_card.rs:220
+msgid "Unavailable"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:243
+msgid "Queued"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:289
+msgid "Retry"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:439
+msgid "Requested"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:505
+msgid "Failed"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:545
+msgid "Sent {} file"
+msgid_plural "Sent {} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/window.rs:576
+msgid "Ready"
+msgstr ""
+
+#: src/window.rs:582
+msgid "Visible as {:?}"
+msgstr ""
+
+#: src/window.rs:588
+msgid "Invisible"
+msgstr ""
+
+#: src/window.rs:594
+msgid "No new devices can share with you"
+msgstr ""
+
+#: src/window.rs:627
+msgid "Couldn't open files"
+msgstr ""
+
+#: src/window.rs:855
+msgid "Can't rename device during an active transfer"
+msgstr ""
