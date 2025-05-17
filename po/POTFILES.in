@@ -4,3 +4,14 @@ data/io.github.nozwock.Packet.metainfo.xml.in.in
 data/resources/ui/shortcuts.blp
 data/resources/ui/window.blp
 src/application.rs
+src/config.rs
+src/main.rs
+src/objects/mod.rs
+src/objects/receive_transfer.rs
+src/objects/send_transfer.rs
+src/utils.rs
+src/widgets/file_card.rs
+src/widgets/mod.rs
+src/widgets/receive_transfer.rs
+src/widgets/recipient_card.rs
+src/window.rs
