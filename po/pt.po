@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-18 13:20+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: data/io.github.nozwock.Packet.desktop.in.in:2
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:6 src/application.rs:129
+#: src/main.rs:33
+msgid "Packet"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.desktop.in.in:3
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:7
+msgid "Share files easily"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.desktop.in.in:9
+msgid "Gnome;GTK;Quick;Nearby;Share;"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:6
+msgid "Window width"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:10
+msgid "Window height"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:18
+msgid "Device name"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:22
+msgid "Device visibility"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:26
+msgid "Download folder"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:9
+msgid ""
+"Send and receive files wirelessly with Android devices using Quick Share or "
+"another device with Packet installed."
+msgstr ""
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:10
+msgid ""
+"Packet requires Bluetooth to be enabled and the devices to be connected to a "
+"Wi-Fi network with mDNS."
+msgstr ""
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:16
+msgid "Home Page"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:20
+msgid "Received Share Request"
+msgstr ""
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:24
+msgid "Sent Share Request"
+msgstr ""
+
+#: src/application.rs:139
+msgid "translator-credits"
+msgstr ""
+
+#: src/application.rs:143
+msgid "Similar Projects"
+msgstr ""
+
+#: src/objects/send_transfer.rs:38 src/objects/send_transfer.rs:46
+#: src/widgets/recipient_card.rs:108 src/widgets/recipient_card.rs:147
+msgid "Unknown device"
+msgstr ""
+
+#: src/utils.rs:133
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/utils.rs:135 src/utils.rs:145
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/utils.rs:147 src/utils.rs:150
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/file_card.rs:115
+msgid "Remove"
+msgstr ""
+
+#: src/widgets/file_card.rs:133 src/window.rs:636
+#, rust-format
+msgid "{} File"
+msgid_plural "{} Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/receive_transfer.rs:20
+msgid "Link"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:21
+msgid "Text"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:22
+msgid "Wi-Fi"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:38
+msgid "Receiving"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:41 src/widgets/recipient_card.rs:308
+msgid "Cancel"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:139
+msgid "Incoming Transfer"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:163
+msgid "Decline"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:164
+msgid "Accept"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:193
+#, rust-format
+msgid "{} file ({})"
+msgid_plural "{} files ({})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/receive_transfer.rs:210
+#, rust-format
+msgid "Preview ({})"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:232 src/widgets/recipient_card.rs:445
+#, rust-format
+msgid "Code: {}"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:336 src/widgets/recipient_card.rs:478
+#, rust-format
+msgid "About {} left"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:362
+msgid "Unexpected dissconnection"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:385
+msgid "Transfer cancelled by sender"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:420
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:428
+msgid "Save text as file"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:485 src/widgets/receive_transfer.rs:601
+msgid "Open"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:582
+msgid "Unimplemented"
+msgstr ""
+
+#: src/widgets/receive_transfer.rs:593
+#, rust-format
+msgid "{} file received"
+msgid_plural "{} files received"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/recipient_card.rs:220
+msgid "Unavailable"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:243
+msgid "Queued"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:289
+msgid "Retry"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:439
+msgid "Requested"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:505
+msgid "Failed"
+msgstr ""
+
+#: src/widgets/recipient_card.rs:545
+#, rust-format
+msgid "Sent {} file"
+msgid_plural "Sent {} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/window.rs:576
+msgid "Ready"
+msgstr ""
+
+#: src/window.rs:582
+#, rust-format
+msgid "Visible as {:?}"
+msgstr ""
+
+#: src/window.rs:588
+msgid "Invisible"
+msgstr ""
+
+#: src/window.rs:594
+msgid "No new devices can share with you"
+msgstr ""
+
+#: src/window.rs:627
+msgid "Couldn't open files"
+msgstr ""
+
+#: src/window.rs:855
+msgid "Can't rename device during an active transfer"
+msgstr ""
