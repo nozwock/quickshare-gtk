@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 22:22+0530\n"
-"PO-Revision-Date: 2025-05-17 19:08+0200\n"
+"POT-Creation-Date: 2025-05-20 15:03+0530\n"
+"PO-Revision-Date: 2025-05-21 10:57+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -18,75 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.6\n"
-
-#: data/io.github.nozwock.Packet.desktop.in.in:3
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:6
-#: data/resources/ui/window.blp:37 data/resources/ui/window.blp:99
-#: src/application.rs:129 src/main.rs:33
-msgid "Packet"
-msgstr "Packet"
-
-#: data/io.github.nozwock.Packet.desktop.in.in:4
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:7
-msgid "Share files easily"
-msgstr "Deel eenvoudig bestanden"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/io.github.nozwock.Packet.desktop.in.in:10
-msgid "Gnome;GTK;Quick;Nearby;Share;"
-msgstr "Gnome;GTK;Nearby;Share;Delen;Snel;Dichtbij;"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:6
-msgid "Window width"
-msgstr "Vensterbreedte"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:10
-msgid "Window height"
-msgstr "Vensterhoogte"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:14
-msgid "Window maximized state"
-msgstr "Venstermaximalisatie"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:18
-msgid "Device name"
-msgstr "Apparaatnaam"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:22
-msgid "Device visibility"
-msgstr "Zichtbaarheid van apparaat"
-
-#: data/io.github.nozwock.Packet.gschema.xml.in:26
-msgid "Download folder"
-msgstr "Downloadmap"
-
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:9
-msgid ""
-"Send and receive files wirelessly with Android devices using Quick Share or "
-"another device with Packet installed."
-msgstr ""
-"Wissen bestanden draadloos uit met Android-apparaten door middel van Quick "
-"Share of een ander apparaat waarop Packet geïnstalleerd is."
-
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:10
-msgid ""
-"Packet requires Bluetooth to be enabled and the devices to be connected to a "
-"Wi-Fi network with mDNS."
-msgstr ""
-"Voor het gebruik van Packet is bluetooth vereist en de apparaten dienen "
-"verbonden te zijn met hetzelfde mDNS-wifinetwerk."
-
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:16
-msgid "Home Page"
-msgstr "Website"
-
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:20
-msgid "Received Share Request"
-msgstr "Deelverzoek ontvangen"
-
-#: data/io.github.nozwock.Packet.metainfo.xml.in.in:24
-msgid "Sent Share Request"
-msgstr "Deelverzoek verstuurd"
 
 #: data/resources/ui/window.blp:7
 msgid "_Preferences"
@@ -103,6 +34,14 @@ msgstr "_Sneltoetsen"
 #: data/resources/ui/window.blp:22
 msgid "_About Packet"
 msgstr "Over P_acket"
+
+#. Translators: The name should remain untranslated
+#: data/resources/ui/window.blp:37 data/resources/ui/window.blp:99
+#: src/application.rs:131 src/main.rs:33
+#: data/io.github.nozwock.Packet.desktop.in.in:3
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:6
+msgid "Packet"
+msgstr "Packet"
 
 #: data/resources/ui/window.blp:51
 msgid "Setting up Packet..."
@@ -148,7 +87,7 @@ msgstr "Zichtbaarheid"
 msgid "Whether others can see this device"
 msgstr "Of anderen dit apparaat kunnen vinden"
 
-#. Don't use h/v-align on Labels, use x/y-align instead
+#. Translators: This is a heading under the help page
 #: data/resources/ui/window.blp:403
 msgid "I don't see the other device"
 msgstr "Ik kan het andere apparaat niet vinden"
@@ -174,11 +113,12 @@ msgstr ""
 "\n"
 "Zorg er ook voor dat bluetooth is ingeschakeld op beide apparaten."
 
-#: src/application.rs:139
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/application.rs:144
 msgid "translator-credits"
 msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 
-#: src/application.rs:143
+#: src/application.rs:149
 msgid "Similar Projects"
 msgstr "Vergelijkbare projecten"
 
@@ -209,7 +149,8 @@ msgstr[1] "seconden"
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: src/widgets/file_card.rs:133 src/window.rs:636
+#. Translators: An e.g. "4 Files"
+#: src/widgets/file_card.rs:133 src/window.rs:638
 msgid "{} File"
 msgid_plural "{} Files"
 msgstr[0] "{} bestand"
@@ -247,49 +188,53 @@ msgstr "Weigeren"
 msgid "Accept"
 msgstr "Goedkeuren"
 
-#: src/widgets/receive_transfer.rs:193
+#. Translators: An e.g. "6 Files (42.3MB)"
+#: src/widgets/receive_transfer.rs:195
 msgid "{} file ({})"
 msgid_plural "{} files ({})"
 msgstr[0] "{} bestand ({})"
 msgstr[1] "{} bestanden ({})"
 
-#: src/widgets/receive_transfer.rs:210
+#: src/widgets/receive_transfer.rs:215
 msgid "Preview ({})"
 msgstr "({}) voorvertonen"
 
-#: src/widgets/receive_transfer.rs:232 src/widgets/recipient_card.rs:445
+#. Translators: This is the pin-code for the transfer
+#: src/widgets/receive_transfer.rs:239 src/widgets/recipient_card.rs:445
 msgid "Code: {}"
 msgstr "Code: {}"
 
-#: src/widgets/receive_transfer.rs:336 src/widgets/recipient_card.rs:478
+#. Translators: {} will be replaced with an estimated remaining time string
+#. e.g. "About 4 minutes 32 seconds left"
+#: src/widgets/receive_transfer.rs:347 src/widgets/recipient_card.rs:478
 msgid "About {} left"
 msgstr "Nog {} te gaan"
 
-#: src/widgets/receive_transfer.rs:362
+#: src/widgets/receive_transfer.rs:374
 msgid "Unexpected dissconnection"
 msgstr "Verbinding onverwacht onderbroken"
 
-#: src/widgets/receive_transfer.rs:385
+#: src/widgets/receive_transfer.rs:397
 msgid "Transfer cancelled by sender"
 msgstr "Overdracht afgebroken door afzender"
 
-#: src/widgets/receive_transfer.rs:420
+#: src/widgets/receive_transfer.rs:432
 msgid "Copy to clipboard"
 msgstr "Kopiëren naar klembord"
 
-#: src/widgets/receive_transfer.rs:428
+#: src/widgets/receive_transfer.rs:440
 msgid "Save text as file"
 msgstr "Tekst opslaan in bestand"
 
-#: src/widgets/receive_transfer.rs:485 src/widgets/receive_transfer.rs:601
+#: src/widgets/receive_transfer.rs:497 src/widgets/receive_transfer.rs:613
 msgid "Open"
 msgstr "Openen"
 
-#: src/widgets/receive_transfer.rs:582
+#: src/widgets/receive_transfer.rs:594
 msgid "Unimplemented"
 msgstr "Nog niet beschikbaar"
 
-#: src/widgets/receive_transfer.rs:593
+#: src/widgets/receive_transfer.rs:605
 msgid "{} file received"
 msgid_plural "{} files received"
 msgstr[0] "{} bestand ontvangen"
@@ -341,6 +286,84 @@ msgstr "Nieuwe apparaten kunnen niets met u delen"
 msgid "Couldn't open files"
 msgstr "De bestanden kunnen niet worden geopend"
 
-#: src/window.rs:855
+#: src/window.rs:860
 msgid "Can't rename device during an active transfer"
 msgstr "De apparaatnaam kan niet worden gewijzigd tijdens een overdracht"
+
+#: data/io.github.nozwock.Packet.desktop.in.in:4
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:7
+msgid "Share files easily"
+msgstr "Deel eenvoudig bestanden"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/io.github.nozwock.Packet.desktop.in.in:10
+msgid "Gnome;GTK;Quick;Nearby;Share;"
+msgstr "Gnome;GTK;Nearby;Share;Delen;Snel;Dichtbij;"
+
+#. Trasnlators: The gschema strings won't be used in the app directly and aren't a priority
+#: data/io.github.nozwock.Packet.gschema.xml.in:7
+msgid "Window width"
+msgstr "Vensterbreedte"
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:11
+msgid "Window height"
+msgstr "Vensterhoogte"
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:15
+msgid "Window maximized state"
+msgstr "Venstermaximalisatie"
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:19
+msgid "Device name"
+msgstr "Apparaatnaam"
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:23
+msgid "Device visibility"
+msgstr "Zichtbaarheid van apparaat"
+
+#: data/io.github.nozwock.Packet.gschema.xml.in:27
+msgid "Download folder"
+msgstr "Downloadmap"
+
+#. Trasnlators: The metainfo strings are for Flathub and aren't a priority
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:10
+msgid ""
+"Send and receive files wirelessly with Android devices using Quick Share or "
+"another device with Packet installed."
+msgstr ""
+"Wissen bestanden draadloos uit met Android-apparaten door middel van Quick "
+"Share of een ander apparaat waarop Packet geïnstalleerd is."
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:11
+msgid ""
+"Packet requires Bluetooth to be enabled and the devices to be connected to a "
+"Wi-Fi network with mDNS."
+msgstr ""
+"Voor het gebruik van Packet is bluetooth vereist en de apparaten dienen "
+"verbonden te zijn met hetzelfde mDNS-wifinetwerk."
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:17
+msgid "Home Page"
+msgstr "Website"
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:21
+msgid "Received Share Request"
+msgstr "Deelverzoek ontvangen"
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:25
+msgid "Sent Share Request"
+msgstr "Deelverzoek verstuurd"
+
+#. Translators: These are release notes, don't waste your time translating these, they won't take effect for now.
+#. Sorry, these shouldn't have been included but the tooling around this is very poor currently.
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:43
+msgid "Added Portuguese (Brazil) translation"
+msgstr "Nieuw: Braziliaans-Portugese vertaling"
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:44
+msgid "Added partial German translation"
+msgstr "Nieuw: gedeeltelijke Duitse vertaling"
+
+#: data/io.github.nozwock.Packet.metainfo.xml.in.in:50
+msgid "Added Dutch translation"
+msgstr "Nieuw: Nederlandse vertaling"
